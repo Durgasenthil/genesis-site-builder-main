@@ -42,7 +42,7 @@ const About = () => {
               <img
                 src="/images/raphael-whitebg.jpeg"
                 alt="Raphael Homoeo Care Clinic"
-                className="absolute inset-0 w-full h-full object-cover opacity-30 group-hover:opacity-50 transition-opacity duration-300"
+                className="absolute inset-0 w-full h-full object-cover  group-hover:opacity-50 transition-opacity duration-300"
               />
 
               {/* Overlay gradient */}

@@ -43,12 +43,12 @@ const Hero = () => {
           className="max-w-3xl mx-auto text-center"
         >
           <div className="inline-flex items-center gap-2 bg-primary/10 text-primary rounded-full px-4 py-1.5 text-sm font-medium mb-6">
-            <img
+            {/* <img
               src="/images/raphael.png"
               alt="Raphael Homoeocare Logo"
               className="h-20 w-20 object-contain transition-transform group-hover:scale-110"
-            />
-            {/* <Leaf className="h-4 w-4" /> */}
+            /> */}
+            <Leaf className="h-4 w-4" />
             Raphael Homoeocare
           </div>
 
