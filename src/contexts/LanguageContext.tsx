@@ -18,7 +18,7 @@ const translations: Record<Language, Record<string, string>> = {
   en: {
     // Header
     "nav.home": "Home",
-    "nav.about": "About Homoeopathy",
+    "nav.about": "About Us",
     "nav.services": "Services",
     "nav.whatwedo": "What We Do",
     "nav.faq": "FAQ",
@@ -26,23 +26,38 @@ const translations: Record<Language, Record<string, string>> = {
     "nav.appointment": "Appointment",
 
     // Hero
-    "hero.headline": "Gentle Healing. Natural Care. Lasting Wellness.",
+    "hero.headline": "True Healing Begins Within",
     "hero.subtext":
-      "Personalized homoeopathic treatment for holistic well-being.",
+      "Personalized, ethical and evidence-informed homoeopathic treatment for complete mind-body wellness.",
     "hero.cta.book": "Book Appointment",
     "hero.cta.learn": "Learn More",
 
     // About
-    "about.title": "About Homoeopathy",
-    "about.subtitle": "A Natural Path to Healing",
+    "about.title": "About Us",
+    "about.tagline": "True Healing Begins Within",
+    "about.subtitle": "Welcome to Raphael Homoeo Care",
     "about.p1":
-      "Homoeopathy is a holistic system of medicine that stimulates the body's natural healing power. Using highly diluted natural substances, it treats the root cause of illness rather than just the symptoms.",
+      "At Raphael Homoeo Care, we provide individualized classical homoeopathic treatment that focuses on identifying and correcting the root cause of illness — not just suppressing symptoms",
     "about.p2":
-      "Safe for all ages — from infants to the elderly — homoeopathy offers gentle, effective treatment without side effects. It works in harmony with your body to restore balance and well-being.",
-    "about.badge.natural": "Natural",
-    "about.badge.safe": "Safe",
-    "about.badge.holistic": "Holistic",
-    "about.badge.noside": "No Side Effects",
+      "We treat every patient as unique, offering safe, gentle and scientifically guided care for all age groups",
+    "about.badge.natural": "Modern Homoeopathy",
+    "about.badge.safe": "Individualized Prescriptions",
+    "about.badge.holistic": "Safe for All Ages",
+    "about.badge.noside": "Long-term Wellness Approach",
+    "about.p3":
+      "We combine structured clinical analysis with compassionate listening to ensure complete, responsible healing.",
+
+    // Doctor Highlight
+    "doctor.title": "Meet Our Doctor",
+    "doctor.subtitle": "Expert Homoeopathic Care",
+    "doctor.name": "Dr. Jonitta Sesuraj",
+    "doctor.credentials": "BHMS., D.YYE",
+    "doctor.registration": "Registered Homoeopathic Practitioner | Registration No: 9761",
+    "doctor.description":
+      "Dr. Jonitta follows classical homoeopathic principles with a strong focus on ethical and individualized treatment. With years of dedicated practice, she combines modern clinical knowledge with traditional homoeopathic wisdom.",
+    "doctor.cta": "View Full Profile",
+    "doctor.cta_title": "Take the First Step Towards Natural Healing",
+    "doctor.cta_subtitle": "Book your consultation today and experience personalized homoeopathic care.",
 
     // Services
     "services.title": "Our Services",
@@ -114,6 +129,20 @@ const translations: Record<Language, Record<string, string>> = {
     "appointment.submit": "🌿 Book Consultation",
     "appointment.success": "Redirecting you to WhatsApp...",
 
+    // Specialties
+    "specialties.title": "Our Areas of Expertise",
+    "specialties.subtitle": "Comprehensive Treatment for Various Health Conditions",
+    "specialties.chronic_allergies": "Chronic Allergies",
+    "specialties.asthma": "Asthma",
+    "specialties.arthritis": "Arthritis",
+    "specialties.migraine": "Migraine",
+    "specialties.digestive_disorders": "Digestive Disorders",
+    "specialties.thyroid_disorders": "Thyroid Disorders",
+    "specialties.pcos": "PCOS",
+    "specialties.skin_problems": "Skin Problems",
+    "specialties.hair_fall": "Hair Fall",
+    "specialties.child_immunity": "Child Immunity",
+
     // FAQ
     "faq.title": "Frequently Asked Questions",
     "faq.q1": "Is homoeopathy safe?",
@@ -137,15 +166,17 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Contact
     "contact.title": "Visit Us",
-    "contact.address": "123, Healing Street, Anna Nagar, Chennai - 600040",
-    "contact.hours": "Mon - Sat: 9:00 AM - 6:00 PM",
+    "contact.address":
+      "A.G.R Complex, L.F Road, Opp to Balavinayagam textiles, Arumuganeri, Thoothukudi Dist, TamilNadu - 628202",
+    "contact.hours":
+      "Mon - Sat: Morning 10:00 AM - 1:00 PM, Evening 5:00 PM - 9:30 PM",
     "contact.hours2": "Sunday: Closed",
-    "contact.phone": "+91-XXXX-XXXXXX",
-    "contact.email": "info@raphaelhomoeocare.com",
+    "contact.phone": "+91-7598125763",
+    "contact.email": "raphaelhomoeocare@gmail.com",
     "contact.walkin": "Walk-ins welcome | Prior appointment recommended",
 
     // Footer
-    "footer.tagline": "Gentle healing for a healthier tomorrow.",
+    "footer.tagline": "True Healing Begins Within.",
     "footer.quicklinks": "Quick Links",
     "footer.contactus": "Contact Us",
     "footer.copyright": "© 2026 Raphael Homoeocare. All Rights Reserved.",
@@ -161,8 +192,7 @@ const translations: Record<Language, Record<string, string>> = {
     "nav.appointment": "சந்திப்பு",
 
     // Hero
-    "hero.headline":
-      "மென்மையான குணப்படுத்துதல். இயற்கையான பராமரிப்பு. நீடித்த நலம்.",
+    "hero.headline": "உண்மை குணப்படுத்துதல் உள்ளில் நடக்குகிறது",
     "hero.subtext":
       "முழுமையான நல்வாழ்வுக்கான தனிப்பயனாக்கப்பட்ட ஹோமியோபதி சிகிச்சை.",
     "hero.cta.book": "சந்திப்பு முன்பதிவு",
@@ -179,6 +209,20 @@ const translations: Record<Language, Record<string, string>> = {
     "about.badge.safe": "பாதுகாப்பானது",
     "about.badge.holistic": "முழுமையானது",
     "about.badge.noside": "பக்கவிளைவு இல்லை",
+    "about.p3":
+      "நாங்கள் கட்டமைக்கப்பட்ட மருத்துவ பகுப்பாய்வை அனுதாபமான கேட்கிறுழறையுடன் இணைத்து முழுமையான, பொறுப்பான குணப்படுத்துதலை உறுதி செய்கிறோம்.",
+
+    // Doctor Highlight
+    "doctor.title": "எங்கள் டாக்டரைச் சந்திக்கவும்",
+    "doctor.subtitle": "நிபுணமான ஹோமியோபதி பராமரிப்பு",
+    "doctor.name": "டாக்டர் ஜொனிட்டா செசுராஜ்",
+    "doctor.credentials": "BHMS., D.YYE",
+    "doctor.registration": "பதிவு செய்யப்பட்ட ஹோமியோபதி பயிற்சியாளர் | பதிவு எண்: 9761",
+    "doctor.description":
+      "டாக்டர் ஜொனிட்டா சாத்திரீய ஹோமியோபதி கொள்கைகளைப் பின்பற்றுகிறார் மற்றும் நீதியான மற்றும் ஆளுமை சிகிச்சையில் முக்கியமாக கவனம் செலுத்துகிறார். பல ஆண்டுகளின் அர்ப்பணிக்கப்பட்ட பயிற்சியுடன், அவர் நவீன மருத்துவ அறிவை பாரம்பரிய ஹோமியோபதி ஞானத்துடன் இணைக்கிறார்.",
+    "doctor.cta": "முழு சுயவிவரணை பார்க்கவும்",
+    "doctor.cta_title": "இயற்கையான குணப்படுத்துதலை நோக்கிய முதல் அடியை எடுக்கவும்",
+    "doctor.cta_subtitle": "இன்று உங்கள் ஆலோசனையை முன்பதிவு செய்து ஆளுமை ஹோமியோபதி பராமரிப்பை அனுபவிக்கவும்.",
 
     // Services
     "services.title": "எங்கள் சேவைகள்",
@@ -225,6 +269,20 @@ const translations: Record<Language, Record<string, string>> = {
       "அறிகுறிகளை மட்டுமல்ல, அடிப்படை காரணத்தை சிகிச்சையளிக்கிறோம்",
     "whatwedo.point3":
       "உணர்ச்சி மற்றும் உடல் குணப்படுத்துதலை ஒன்றாக ஆதரிக்கிறோம்",
+
+    // Specialties
+    "specialties.title": "நமது நிபுணத்வ பகுதிகள்",
+    "specialties.subtitle": "பல்வேறு உடல்நல நிலைமைகளுக்கான விரிவான சிகிச்சை",
+    "specialties.chronic_allergies": "நாள்பட்ட ஒவ்வாமை",
+    "specialties.asthma": "ஆஸ்துமா",
+    "specialties.arthritis": "மூட்டு வீக்கம்",
+    "specialties.migraine": "ஒற்றைத் தலைவலி",
+    "specialties.digestive_disorders": "செரிமான கோளாறுகள்",
+    "specialties.thyroid_disorders": "தைராய்டு கோளாறுகள்",
+    "specialties.pcos": "பி.சி.ஓ.எஸ்",
+    "specialties.skin_problems": "தோல் பிரச்சினைகள்",
+    "specialties.hair_fall": "முடி உதிர்வு",
+    "specialties.child_immunity": "குழந்தை நோய் எதிர்ப்பு சக்தி",
 
     // Testimonials
     "testimonial.1.text":
@@ -275,16 +333,17 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Contact
     "contact.title": "எங்களை சந்தியுங்கள்",
-    "contact.address": "123, ஹீலிங் தெரு, அண்ணா நகர், சென்னை - 600040",
-    "contact.hours": "திங்கள் - சனி: காலை 9:00 - மாலை 6:00",
+    "contact.address":
+      "ஏ.ஜி.ஆர் குறும்பு, எல்.எப் சாலை, பாலவிநாயகம் ஜவுளிக்கு எதிர், ஆறுமுகநேரி, தூத்துக்குடி மாவட்டம், தமிழ்நாடு - 628202",
+    "contact.hours": "திங்கள் - சனி: காலை 10:00 - 1:00 PM, மாலை 5:00 - 9:30 PM",
     "contact.hours2": "ஞாயிறு: மூடப்பட்டது",
-    "contact.phone": "+91-XXXX-XXXXXX",
-    "contact.email": "info@raphaelhomoeocare.com",
+    "contact.phone": "+91-7598125763",
+    "contact.email": "raphaelhomoeocare@gmail.com",
     "contact.walkin":
       "நேரடி வருகை வரவேற்கப்படுகிறது | முன்கூட்டிய சந்திப்பு பரிந்துரைக்கப்படுகிறது",
 
     // Footer
-    "footer.tagline": "ஆரோக்கியமான நாளைக்கான மென்மையான குணப்படுத்துதல்.",
+    "footer.tagline": "உண்மை குணப்படுத்துதல் உள்ளில் நடக்குகிறது.",
     "footer.quicklinks": "விரைவு இணைப்புகள்",
     "footer.contactus": "எங்களை தொடர்பு கொள்ளுங்கள்",
     "footer.copyright":

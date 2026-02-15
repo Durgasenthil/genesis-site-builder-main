@@ -48,7 +48,7 @@ const Appointment = () => {
       return;
     }
 
-    const whatsappNumber = "91XXXXXXXXXX"; // Replace with actual number
+    const whatsappNumber = "+917598125763"; // Replace with actual number
     const message = `Hello Raphael Homoeocare!%0A%0AName: ${form.name}%0APhone: ${form.phone}%0AEmail: ${form.email}%0AAge: ${form.age}%0AService: ${form.service}%0ADate: ${form.date}%0ATime: ${form.time}%0ALanguage: ${form.langPref}%0AMessage: ${form.message}`;
     const url = `https://wa.me/${whatsappNumber}?text=${message}`;
 

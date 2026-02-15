@@ -41,7 +41,7 @@ const Header = () => {
           className="flex items-center gap-2 group"
         >
           <img
-            src="/images/raphael-logo.svg"
+            src="/images/raphael.png"
             alt="Raphael Homoeocare Logo"
             className="h-20 w-20 object-contain transition-transform group-hover:scale-110"
           />

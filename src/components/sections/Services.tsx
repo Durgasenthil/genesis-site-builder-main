@@ -3,92 +3,48 @@ import { useLanguage } from "@/contexts/LanguageContext";
 
 const serviceGroups = [
   {
-    title: "General Homoeopathic Treatment",
+    title: "General Homoeopathic Consultation",
     items: [
-      "Acute & chronic diseases",
-      "Fever, cold, cough, viral infections",
-      "Allergies & sinusitis",
-      "Headache & migraine",
+      "Personalized treatment for acute and chronic illnesses",
     ],
   },
   {
-    title: "Women's Health (Homoeopathy)",
+    title: "Chronic Disease Management",
     items: [
-      "PCOS / PCOD",
-      "Thyroid problems",
-      "Irregular periods, Fibroids & cysts",
-      "Infertility support",
+      "Long-term care for recurring and persistent conditions",
     ],
   },
   {
-    title: "Child Care (Paediatric Homoeopathy)",
+    title: "Women's Health Care",
     items: [
-      "Recurrent cold & cough, Tonsillitis",
-      "Worm infestation, Growth & immunity boosting",
-      "Behavioural issues (ADHD tendencies, irritability)",
+      "Hormonal imbalance",
+      "Menstrual issues",
+      "PCOS",
+      "Thyroid concerns",
     ],
   },
   {
-    title: "Skin & Hair Treatment",
+    title: "Child Health Care",
     items: [
-      "Acne, eczema, psoriasis",
-      "Corns, pigmentation, vitiligo",
-      "Hair fall, dandruff, fungal infections",
+      "Safe remedies for infants and growing children",
     ],
   },
   {
-    title: "Renal Disorders (Kidney Related)",
+    title: "Skin Disorders",
     items: [
-      "Kidney stone management",
-      "Recurrent UTI",
-      "Early CKD supportive care",
-      "Renal colic pain relief",
+      "Eczema",
+      "Psoriasis",
+      "Acne",
+      "Other chronic skin issues",
     ],
   },
   {
-    title: "Lifestyle & Metabolic Disorders",
+    title: "Lifestyle & Stress Disorders",
     items: [
-      "Diabetes (supportive care)",
-      "Hypertension",
-      "Obesity / Weight management",
-      "Thyroid issues",
-    ],
-  },
-  {
-    title: "Mental & Emotional Wellness",
-    items: [
-      "Anxiety, stress, depression tendencies",
-      "Sleep disturbances, exam fear",
-      "Emotional balancing remedies",
-    ],
-  },
-  {
-    title: "Neurological Disorders (Supportive Care)",
-    items: [
-      "Supportive care for Parkinsonism",
-      "Paraplegia (symptom management & rehabilitation support)",
-      "Neuralgia & neuropathic pain",
-      "Migraine & neural headaches",
-    ],
-  },
-  {
-    title: "Bone & Joint Care",
-    items: [
-      "Arthritis",
-      "Cervical & lumbar spondylosis",
-      "Sciatica, joint pains, sprains",
-    ],
-  },
-  {
-    title: "Stomach & Digestive Disorders",
-    items: ["Gastritis, acidity", "IBS", "Constipation", "Ulcers"],
-  },
-  {
-    title: "Cancer Care (Supportive Treatment)",
-    items: [
-      "Supportive care along with ongoing medical/oncology treatment",
-      "Symptom relief (pain, nausea, fatigue, sleep issues)",
-      "Emotional support & stress reduction",
+      "Anxiety",
+      "Sleep disturbances",
+      "Fatigue",
+      "Stress-related conditions",
     ],
   },
 ];

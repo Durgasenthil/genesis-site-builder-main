@@ -3,7 +3,7 @@ import { useIsMobile } from "@/hooks/use-mobile";
 
 const FloatingButtons = () => {
   const isMobile = useIsMobile();
-  const whatsappNumber = "9788788958"; // Replace with actual
+  const whatsappNumber = "917598125763"; // Replace with actual
 
   return (
     <>
@@ -21,7 +21,7 @@ const FloatingButtons = () => {
       {/* Mobile Call Now bar */}
       {isMobile && (
         <a
-          href="tel:9788788958"
+          href="tel:917598125763"
           className="fixed bottom-0 left-0 right-0 z-40 bg-primary text-primary-foreground py-3 flex items-center justify-center gap-2 font-medium text-sm shadow-lg"
         >
           <Phone className="h-4 w-4" />

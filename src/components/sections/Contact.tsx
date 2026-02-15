@@ -1,6 +1,6 @@
-import { useLanguage } from '@/contexts/LanguageContext';
-import { motion } from 'framer-motion';
-import { MapPin, Clock, Phone, Mail } from 'lucide-react';
+import { useLanguage } from "@/contexts/LanguageContext";
+import { motion } from "framer-motion";
+import { MapPin, Clock, Phone, Mail } from "lucide-react";
 
 const Contact = () => {
   const { t } = useLanguage();
@@ -15,7 +15,9 @@ const Contact = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-3">{t('contact.title')}</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-3">
+            {t("contact.title")}
+          </h2>
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-10 max-w-5xl mx-auto">
@@ -33,7 +35,9 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-semibold text-foreground mb-1">Address</h3>
-                <p className="text-muted-foreground text-sm">{t('contact.address')}</p>
+                <p className="text-muted-foreground text-sm">
+                  {t("contact.address")}
+                </p>
               </div>
             </div>
 
@@ -43,8 +47,12 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-semibold text-foreground mb-1">Hours</h3>
-                <p className="text-muted-foreground text-sm">{t('contact.hours')}</p>
-                <p className="text-muted-foreground text-sm">{t('contact.hours2')}</p>
+                <p className="text-muted-foreground text-sm">
+                  {t("contact.hours")}
+                </p>
+                <p className="text-muted-foreground text-sm">
+                  {t("contact.hours2")}
+                </p>
               </div>
             </div>
 
@@ -54,7 +62,9 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-semibold text-foreground mb-1">Phone</h3>
-                <p className="text-muted-foreground text-sm">{t('contact.phone')}</p>
+                <p className="text-muted-foreground text-sm">
+                  {t("contact.phone")}
+                </p>
               </div>
             </div>
 
@@ -64,12 +74,14 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-semibold text-foreground mb-1">Email</h3>
-                <p className="text-muted-foreground text-sm">{t('contact.email')}</p>
+                <p className="text-muted-foreground text-sm">
+                  {t("contact.email")}
+                </p>
               </div>
             </div>
 
             <div className="mt-6 p-4 bg-sage-light rounded-xl text-sm text-primary font-medium text-center">
-              {t('contact.walkin')}
+              {t("contact.walkin")}
             </div>
           </motion.div>
 
@@ -82,13 +94,12 @@ const Contact = () => {
           >
             <div className="aspect-[4/3] rounded-2xl bg-muted flex items-center justify-center overflow-hidden shadow-md">
               <iframe
-                title="Clinic Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.0!2d80.22!3d13.08!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDA0JzQ4LjAiTiA4MMKwMTMnMTIuMCJF!5e0!3m2!1sen!2sin!4v1"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.27243371575!2d78.09627760000001!3d8.569782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b038d2cc3777439%3A0x89c4d77abf48b407!2sRaphael%20Homoeo%20Care!5e0!3m2!1sen!2sin!4v1771141105342!5m2!1sen!2sin"
                 className="w-full h-full border-0 rounded-2xl"
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-              />
+              ></iframe>
             </div>
           </motion.div>
         </div>
